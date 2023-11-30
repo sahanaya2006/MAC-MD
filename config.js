@@ -41,7 +41,7 @@ module.exports = {
   HEROKU: {
     HEROKU: process.env.HEROKU ||true,
     API_KEY: process.env.HEROKU_API_KEY === undefined ? '5c3c4bfe-f065-48d0-819c-7a2b2a89b105' : process.env.HEROKU_API_KEY,
-    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'macsahanaya250' : process.env.HEROKU_APP_NAME
+    APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'macsahaaya250' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'MAC',
